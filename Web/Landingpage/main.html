@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        header {
+            background: linear-gradient(to right, #78c0c5, #40b0cc, #087b9e, #2286e4);
+            color: rgb(3, 13, 71);
+            padding: 1rem 0;
+        }
+        
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+           
+        }
+        
+        .top-bar {
+            align-items: center;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            background: linear-gradient(to right, #6ebce9, #47adf1, #23ecec, #1e8feb);
+        }
+            
+            
+        .social-icons a {
+            text-decoration: none;
+            color: #a3f5c8;
+            margin-right: 1rem;
+            
+        }
+        .contact-info {
+            color: #06053b;
+        }
+        nav {
+            padding: 0 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+           
+        }
+        .logo h1 {
+            margin: 0;
+        }
+        nav ul {
+            display: flex;
+            margin: 0;
+            list-style: none;
+            
+        }
+        nav ul li {
+            margin: 0 1rem;
+        }
+        nav ul li a {
+            color: #c5f8f1;
+            text-decoration: none;
+        }
+        .cta {
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 5px;
+            background: #4f9c98;
+            color: #05173d;
+        }
+        .cta:hover {
+            background: #5eb2f7;
+        }
+        .main {
+            padding: 5rem 2rem;
+            margin: 0; 
+            color: #022530;
+            text-align: center;
+           
+        }
+        .main-content h2 {
+            margin: 0;
+            font-size: 1.5rem;
+            opacity: 0.8;
+        }
+        .main-content h1 {
+            margin: 0.5rem 0;
+            font-size: 3rem;
+        }
+        .main-buttons .btn {
+            background: #8fdef1;
+            color: #2e0536;
+            padding: 0.75rem 1.5rem;
+            margin: 0.5rem;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .main-buttons .btn:hover {
+            background: #2480ca;
+        }
+        .about, .services {
+            text-align: center;
+            padding: 4rem 2rem;
+        }
+        .services .service-cards {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 2rem;
+        }
+        .card {
+            border-radius: 5px;
+            width: 30%;
+            box-shadow: 0 4px 6px rgba(61, 106, 158, 0.1);
+            background: #f7ebeb;
+            padding: 2rem;
+            
+        }
+        footer {
+            background: linear-gradient(to right, #9ae2c4, #99e5e2, #50d8e2, #5ba8f0);
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="contact-info">
+                <p>Email: youremail@gmail.com</p>
+            </div>
+        </div>
+        <nav>
+            <div class="logo">
+                <h1>Landing Page</h1>
+            </div>
+            <ul>
+                <li><a href="main.html">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+            <a href="booking.html" class="cta">Book Now</a>
+        </nav>
+    </header>   
+    <main>
+        <section class="main">
+            <div class="main-content">
+                <h2>We Are Innovative!</h2>
+                <h1>SGI Industry</h1>
+                <p>We focus on leveraging the latest technologies and innovative approaches to meet the specific needs of our clients.</p>
+                <div class="main1-buttons">
+                    <a href="#about" class="btn">Read More</a>
+                    <a href="#services" class="btn">Request a Consult</a>
+                    <a href="#" class="btn">Contact</a>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="about">
+            <h2>ABOUT</h2>
+            <p>We are committed to delivering exceptional results for our clients.</p>
+            <p>As dreamers pursuing our goals, we examine current events, navigate the digital world we've created, and provide meaningful outcomes for users. Our mission is to connect data with business intelligence. By harnessing advanced analytics and technology, we help organizations realize their full potential and achieve their strategic objectives.</p>
+            <p>We excel in turning data into a competitive edge. Through continuous innovation and a customer-centric approach, we aim to deliver insights that drive growth, efficiency, and success in the digital era.</p>
+            <a href="more.html" target="_self" class="btn">Read More</a>
+        </section>
+        
+        <section id="services" class="services">
+            <h2>SERVICES</h2>
+            <div class="service-cards">
+                <div class="card">
+                    <h3>User Experience</h3>
+                    <p>"Designs that are mobile-friendly, incorporate fluid grids, and utilize flexible images."</p>
+                </div>
+                <div class="card">
+                    <h3>Creative Design</h3>
+                    <p>"Harmonious layouts, attractive color schemes, and high-quality images."</p>
+                </div>
+                <div class="card">
+                    <h3>Retina Ready</h3>
+                    <p>"Art portfolios, photo galleries, and design showcases."</p>
+
+                </div>
+                
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 SGI Industry. All rights reserved.</p>
+    </footer>
+</body>
+</html>
